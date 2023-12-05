@@ -1,0 +1,126 @@
+body{
+    background-color: #f1f1f1;
+    font-family: "Roboto", sans-serif;
+}
+
+.main-movies{
+    width: 80%;
+    margin: 0 auto;
+
+    display: flex;
+    gap: 16px;
+}
+
+.releases-title, 
+.watchlist-title{
+    font-size: 32px;
+    font-weight: 600;
+    margin-block: 32px;
+}
+
+.movies-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.movie{
+    display: flex;
+    gap: 16px;
+    background-color: #ffffff;
+    color: #333333;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.movie-poster{
+    width: 30%;
+}
+
+.movie-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+.movie-title, 
+.movie-genre, 
+.movie-synopsis{
+    padding: 4px;
+    line-height: 1.4rem;
+}
+
+.movie-title{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.movie-genre{
+    font-size: 1.1rem;
+    color: #888888;
+    display: inline-flex;
+}
+
+.movie-rating {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+}
+
+.movie-rating-r {
+    background-color: red;
+}
+
+.movie-rating-pg-13{
+    background-color: purple;
+}
+
+.movie-rating-g {
+    background-color: green;
+}
+
+.movie-star-rating {
+    display: flex;
+    margin: 4px 0 4px 4px;
+    gap: 2px;
+}
+
+.star-checked {
+    color: orange;
+}
+
+.movie-actions {
+    display: flex;
+    gap: 12px;
+
+    align-self: flex-end;
+}
+
+.movie-action-button {
+    font-size: 18px;
+    border: 2px solid black;
+    padding: 8px 16px;
+    border-radius: 5px;
+    box-shadow: 4px 4px;
+}
+
+.movie-action-button:hover {
+    background-color: #216b33;
+    color: white;
+    transition: 0.2s;
+}
+
+.watchlist-title {
+    text-align: center;
+}
+
+.watchlist-list {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
